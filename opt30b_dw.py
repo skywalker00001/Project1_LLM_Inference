@@ -16,6 +16,7 @@ import pandas as pd
 
 
 device_ids = [0,1]
+device_ids = [1, 2]
 os.environ['CUDA_VISIBLE_DEVICES'] = (',').join([str(dv) for dv in device_ids])
 
 # Set random seeds and deterministic pytorch for reproducibility

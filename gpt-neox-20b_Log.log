@@ -1,0 +1,75 @@
+2022-10-09 09:00:20,552 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-09 09:02:18,842 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-09 09:02:56,137 - gpt_neox.py - line:90 - INFO -                    Loading model cosumes: 0 min 36 sec
+2022-10-09 09:04:48,629 - gpt_neox.py - line:209 - INFO -                    Promp version 1, inference cosumes: 1 min 52 sec
+2022-10-09 09:05:05,707 - gpt_neox.py - line:209 - INFO -                    Promp version 2, inference cosumes: 0 min 17 sec
+2022-10-09 09:05:36,578 - gpt_neox.py - line:209 - INFO -                    Promp version 3, inference cosumes: 0 min 30 sec
+2022-10-09 09:15:21,522 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-09 09:16:01,569 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-09 09:16:03,776 - gpt_neox.py - line:80 - ERROR -                    CUDA error: all CUDA-capable devices are busy or unavailable
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Traceback (most recent call last):
+  File "/home/houyi/codes/Project1_LLM_Inference/gpt_neox.py", line 78, in <module>
+    model = GPTNeoXForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto")
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2179, in from_pretrained
+    max_memory = get_balanced_memory(
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/accelerate/utils/modeling.py", line 363, in get_balanced_memory
+    max_memory = get_max_memory(max_memory)
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/accelerate/utils/modeling.py", line 287, in get_max_memory
+    _ = torch.tensor([0], device=i)
+RuntimeError: CUDA error: all CUDA-capable devices are busy or unavailable
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2022-10-09 09:16:03,779 - gpt_neox.py - line:90 - INFO -                    Loading model cosumes: 0 min 1 sec
+2022-10-09 09:16:50,894 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-09 09:16:53,000 - gpt_neox.py - line:80 - ERROR -                    CUDA error: all CUDA-capable devices are busy or unavailable
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Traceback (most recent call last):
+  File "/home/houyi/codes/Project1_LLM_Inference/gpt_neox.py", line 78, in <module>
+    model = GPTNeoXForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto")
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2179, in from_pretrained
+    max_memory = get_balanced_memory(
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/accelerate/utils/modeling.py", line 363, in get_balanced_memory
+    max_memory = get_max_memory(max_memory)
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/accelerate/utils/modeling.py", line 287, in get_max_memory
+    _ = torch.tensor([0], device=i)
+RuntimeError: CUDA error: all CUDA-capable devices are busy or unavailable
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2022-10-09 09:16:53,012 - gpt_neox.py - line:90 - INFO -                    Loading model cosumes: 0 min 1 sec
+2022-10-09 09:17:40,549 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-09 09:18:04,483 - gpt_neox.py - line:90 - INFO -                    Loading model cosumes: 0 min 22 sec
+2022-10-09 09:19:57,029 - gpt_neox.py - line:212 - INFO -                    Promp version 1, inference cosumes: 1 min 52 sec
+2022-10-09 09:20:14,075 - gpt_neox.py - line:212 - INFO -                    Promp version 2, inference cosumes: 0 min 17 sec
+2022-10-09 09:20:44,918 - gpt_neox.py - line:212 - INFO -                    Promp version 3, inference cosumes: 0 min 30 sec
+2022-10-09 13:12:47,020 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-09 13:13:11,301 - gpt_neox.py - line:90 - INFO -                    Loading model cosumes: 0 min 23 sec
+2022-10-09 15:50:47,255 - gpt_neox.py - line:212 - INFO -                    Promp version 1, inference cosumes: 157 min 35 sec
+2022-10-09 16:11:15,655 - gpt_neox.py - line:212 - INFO -                    Promp version 2, inference cosumes: 20 min 28 sec
+2022-10-09 16:51:15,181 - gpt_neox.py - line:212 - INFO -                    Promp version 3, inference cosumes: 39 min 59 sec
+2022-10-09 16:51:18,331 - gpt_neox.py - line:50 - INFO -                    Making dir /home/houyi/outputs/crass_1009_v1/.
+2022-10-09 16:51:18,520 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-09 16:51:44,468 - gpt_neox.py - line:90 - INFO -                    Loading model cosumes: 0 min 24 sec
+2022-10-09 22:19:08,975 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-09 22:19:33,070 - gpt_neox.py - line:90 - INFO -                    Loading model cosumes: 0 min 23 sec
+2022-10-09 22:19:44,491 - gpt_neox.py - line:220 - INFO -                    Promp pt_version 4, inference cosumes: 0 min 11 sec
+2022-10-09 22:57:46,997 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-09 22:58:09,918 - gpt_neox.py - line:90 - INFO -                    Loading model EleutherAI/gpt-neox-20b, cosumes: 0 min 21 sec
+2022-10-09 23:11:13,907 - gpt_neox.py - line:222 - INFO -                    Promp pt_version 4, inference cosumes: 13 min 3 sec
+2022-10-10 05:15:46,055 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-10 05:16:08,306 - gpt_neox.py - line:90 - INFO -                    Loading model EleutherAI/gpt-neox-20b, cosumes: 0 min 21 sec
+2022-10-10 05:36:38,345 - gpt_neox.py - line:223 - INFO -                    Promp pt_version 6, inference consumes: 20 min 30 sec
+2022-10-10 08:46:20,227 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-10 08:46:43,262 - gpt_neox.py - line:90 - INFO -                    Loading model EleutherAI/gpt-neox-20b, cosumes: 0 min 21 sec
+2022-10-10 09:14:11,697 - gpt_neox.py - line:223 - INFO -                    Promp pt_version 7, inference consumes: 27 min 28 sec
+2022-10-10 11:15:10,626 - gpt_neox.py - line:223 - INFO -                    Promp pt_version 1, inference consumes: 120 min 58 sec
+2022-10-10 11:29:29,528 - gpt_neox.py - line:223 - INFO -                    Promp pt_version 2, inference consumes: 14 min 18 sec
+2022-10-10 11:36:26,093 - gpt_neox.py - line:223 - INFO -                    Promp pt_version 4, inference consumes: 6 min 56 sec
+2022-10-10 14:04:22,686 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-10 14:04:45,015 - gpt_neox.py - line:90 - INFO -                    Loading model EleutherAI/gpt-neox-20b, cosumes: 0 min 21 sec
+2022-10-10 14:11:43,227 - gpt_neox.py - line:223 - INFO -                    Promp pt_version 4, inference consumes: 6 min 58 sec
+2022-10-10 15:42:04,043 - gpt_neox.py - line:54 - INFO -                    Current Device: 0
+2022-10-10 15:42:27,410 - gpt_neox.py - line:90 - INFO -                    Loading model EleutherAI/gpt-neox-20b, cosumes: 0 min 22 sec
+2022-10-10 16:10:43,184 - gpt_neox.py - line:223 - INFO -                    Promp pt_version 8, inference consumes: 28 min 15 sec

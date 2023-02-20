@@ -1,0 +1,54 @@
+2022-10-09 07:02:56,318 - opt30b_vanilla.py - line:49 - INFO -                    Device 0, GPU memory occupied: 30239 MB.
+2022-10-09 07:02:56,324 - opt30b_vanilla.py - line:49 - INFO -                    Device 1, GPU memory occupied: 29521 MB.
+2022-10-09 07:02:56,324 - opt30b_vanilla.py - line:75 - INFO -                    Loading model cosumes: 0 min 24 sec
+2022-10-09 07:03:21,430 - opt30b_vanilla.py - line:97 - INFO -                    text:
+2022-10-09 07:03:21,430 - opt30b_vanilla.py - line:98 - INFO -                    ['Analyze the question and each choice to find the best one given the counterfactual condition.\n\nQuestion: A girl kisses a boy. What would have happened if the girl had killed the boy? (a) Everything would have been fine. (b) She would have been liable to prosecution. (c) That is not possible.\nAnswer: (a) If the girl had killed the boy, everything would have been fine. Because "the girl killed the boy" won\'t cause "Everything been fine". Therefore, (a) is logically wrong. (b) If the girl had killed the boy, she would have been liable to prosecution. Because "the girl killed the boy" will cause "she prosecution". Therefore, (b) is logically right. (c), "That is not possible" means that "the girl had killed the boy" would not be able to happen. Because "the girl had killed the boy" could happen in reality. Therefore, (c) is logically wrong. Overall, the final one choice is (b).\nQuestion: A plant grows in a planter. What would have happened if the planter had grown in the plant? (a) It would have grown more quickly. (b) The plant would have suffered. (c) That is not possible. (d) The planter would have cultivated the plant.\nAnswer: (a) If the planter had grown in the plant, it would have grown more quickly. Because "planter grown in the plant" won\'t cause "the planter grown more quickly". Therefore, (a) is logically wrong. (b) If the planter had grown in the plant, the plant would have suffered. Because "planter grown in the plant" won\'t cause "the plant suffered". Therefore, (b) is logically wrong. (c) "That is not possible" means that "the planter had grown in the plant" would not be able to happen. Because "the planter had grown in the plant" could not happen in reality. Therefore, (c) is logically right. For (d) If the planter had grown in the plant, the planter would have cultivated the plant. Because "planter grown in the plant" won\'t cause "planter cultivated the plant". Therefore, (d) is logically wrong. Overall, the final one choice is (c).\nQuestion: A woman drives on a highway. What would have happened if a child had driven on the highway? (a) The child would have probably died. (b) It would have been dangerous and illegal. (c) The child wouldn\'t be driving. (d) The woman would have been a licensed driver.\nAnswer: (a) If a child had driven on the highway, the child would have probably died. Because "a child driven on the highway" will cause "child died". Therefore, (a) is logically right. (b) If a child had driven on the highway, it would have been dangerous and illegal. Because "a child driven on the highway" will cause "it been dangerous and illegal". Therefore, (b) is logically right. (c) If a child had driven on the highway, the child wouldn\'t be driving. Because "a child driven on the highway" won\'t cause "child wouldn\'t be driving". Therefore, (c) is logically wrong. (d) If a child had driven on the highway, the woman would have been a licensed driver. Because "a child driven on the highway" won\'t cause "the woman been a licensed driver". Therefore, (d) is logically wrong. The two right choices are (a) and (b), but by comparison "a child driven on the highway" is more likely to cause (b) "it would have been dangerous and illegal" than (a) "the child would have died". Overall, the final one choice is (b).\nQuestion: A woman opens a treasure chest. What would have happened if the woman had not opened the treasure chest? (a) The treasure chest would have remained closed. (b) The treasure chest would have been open. (c) That is not possible. \nAnswer: (a) If the woman had not opened the treasure chest, the treasure chest would have remained closed. Because "the woman opened the treasure chest" will cause "the treasure chest remained closed". Therefore, (a) is logically right. (b) If the woman had not opened the treasure chest, the treasure chest would have been open. Because "the woman opened the treasure chest" will cause "the treasure chest remained open". Therefore, (b) is logically right. (c) "That is not possible" means that "the woman opened the treasure chest" would not be able to happen. Because "the woman opened the treasure chest" could happen in reality. Therefore, (c) is logically wrong. Overall, the final one choice is (b).\nQuestion']
+2022-10-09 07:03:21,430 - opt30b_vanilla.py - line:104 - INFO -                    Inference cosumes: 0 min 25 sec
+2022-10-09 08:05:01,646 - opt30b_vanilla.py - line:86 - INFO -                    Loading model cosumes: 0 min 23 sec
+2022-10-09 08:14:03,462 - opt30b_vanilla.py - line:88 - INFO -                    Loading model cosumes: 0 min 24 sec
+2022-10-09 08:15:08,000 - opt30b_vanilla.py - line:88 - INFO -                    Loading model cosumes: 0 min 24 sec
+2022-10-09 08:18:37,918 - opt30b_vanilla.py - line:89 - INFO -                    Loading model cosumes: 0 min 24 sec
+2022-10-09 08:35:31,193 - opt30b_vanilla.py - line:95 - INFO -                    Loading model cosumes: 0 min 24 sec
+2022-10-09 08:37:19,723 - opt30b_vanilla.py - line:202 - INFO -                    Inference cosumes: 1 min 48 sec
+2022-10-09 08:53:08,752 - opt30b_vanilla.py - line:87 - INFO -                    Loading model cosumes: 0 min 24 sec
+2022-10-09 08:54:57,294 - opt30b_vanilla.py - line:206 - INFO -                    Promp version 1, inference cosumes: 1 min 48 sec
+2022-10-09 08:55:12,704 - opt30b_vanilla.py - line:206 - INFO -                    Promp version 2, inference cosumes: 0 min 15 sec
+2022-10-09 08:55:44,534 - opt30b_vanilla.py - line:206 - INFO -                    Promp version 3, inference cosumes: 0 min 31 sec
+2022-10-09 09:26:05,844 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-09 09:26:32,178 - opt30b_vanilla.py - line:90 - INFO -                    Loading model cosumes: 0 min 25 sec
+2022-10-09 12:04:30,588 - opt30b_vanilla.py - line:212 - INFO -                    Promp version 1, inference cosumes: 157 min 58 sec
+2022-10-09 12:26:53,779 - opt30b_vanilla.py - line:212 - INFO -                    Promp version 2, inference cosumes: 22 min 23 sec
+2022-10-09 13:12:43,716 - opt30b_vanilla.py - line:212 - INFO -                    Promp version 3, inference cosumes: 45 min 49 sec
+2022-10-09 22:18:18,285 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-09 22:18:54,962 - opt30b_vanilla.py - line:90 - INFO -                    Loading model cosumes: 0 min 35 sec
+2022-10-09 22:19:05,626 - opt30b_vanilla.py - line:216 - INFO -                    Promp pt_version 4, inference cosumes: 0 min 10 sec
+2022-10-09 22:27:41,280 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-09 22:29:09,502 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-09 22:29:34,870 - opt30b_vanilla.py - line:90 - INFO -                    Loading model facebook/opt-30b, cosumes: 0 min 24 sec
+2022-10-09 22:29:45,504 - opt30b_vanilla.py - line:222 - INFO -                    Promp pt_version 4, inference cosumes: 0 min 10 sec
+2022-10-09 22:31:35,236 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-09 22:32:01,428 - opt30b_vanilla.py - line:90 - INFO -                    Loading model facebook/opt-30b_vanilla, cosumes: 0 min 25 sec
+2022-10-09 22:40:05,673 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-09 22:40:30,864 - opt30b_vanilla.py - line:90 - INFO -                    Loading model facebook/opt-30b_vanilla, cosumes: 0 min 24 sec
+2022-10-09 22:40:41,525 - opt30b_vanilla.py - line:222 - INFO -                    Promp pt_version 4, inference cosumes: 0 min 10 sec
+2022-10-09 22:43:19,015 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-09 22:43:44,087 - opt30b_vanilla.py - line:90 - INFO -                    Loading model facebook/opt-30b_vanilla, cosumes: 0 min 24 sec
+2022-10-09 22:57:43,755 - opt30b_vanilla.py - line:222 - INFO -                    Promp pt_version 4, inference cosumes: 13 min 59 sec
+2022-10-10 04:44:48,328 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-10 04:45:13,122 - opt30b_vanilla.py - line:90 - INFO -                    Loading model facebook/opt-30b_vanilla, consumes: 0 min 23 sec
+2022-10-10 04:45:30,185 - opt30b_vanilla.py - line:225 - INFO -                    Promp pt_version 6, inference cosumes: 0 min 17 sec
+2022-10-10 04:49:44,556 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-10 04:50:09,302 - opt30b_vanilla.py - line:90 - INFO -                    Loading model facebook/opt-30b_vanilla, consumes: 0 min 23 sec
+2022-10-10 05:15:42,793 - opt30b_vanilla.py - line:225 - INFO -                    Promp pt_version 6, inference cosumes: 25 min 33 sec
+2022-10-10 05:47:38,314 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-10 05:48:03,151 - opt30b_vanilla.py - line:90 - INFO -                    Loading model facebook/opt-30b_vanilla, consumes: 0 min 23 sec
+2022-10-10 06:19:27,634 - opt30b_vanilla.py - line:225 - INFO -                    Promp pt_version 7, inference cosumes: 31 min 24 sec
+2022-10-10 08:23:00,336 - opt30b_vanilla.py - line:225 - INFO -                    Promp pt_version 1, inference cosumes: 123 min 32 sec
+2022-10-10 08:38:55,048 - opt30b_vanilla.py - line:225 - INFO -                    Promp pt_version 2, inference cosumes: 15 min 54 sec
+2022-10-10 08:46:16,931 - opt30b_vanilla.py - line:225 - INFO -                    Promp pt_version 4, inference cosumes: 7 min 21 sec
+2022-10-10 13:56:35,111 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-10 13:56:59,677 - opt30b_vanilla.py - line:90 - INFO -                    Loading model facebook/opt-30b_vanilla, consumes: 0 min 23 sec
+2022-10-10 14:04:19,423 - opt30b_vanilla.py - line:226 - INFO -                    Promp pt_version 4, inference cosumes: 7 min 19 sec
+2022-10-10 15:10:54,586 - opt30b_vanilla.py - line:53 - INFO -                    Current Device: 0
+2022-10-10 15:11:19,226 - opt30b_vanilla.py - line:90 - INFO -                    Loading model facebook/opt-30b_vanilla, consumes: 0 min 23 sec
+2022-10-10 15:42:00,759 - opt30b_vanilla.py - line:226 - INFO -                    Promp pt_version 8, inference cosumes: 30 min 41 sec

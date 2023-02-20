@@ -1,0 +1,56 @@
+2022-10-11 11:29:00,921 - opt_66b_vanilla_dataset.py - line:59 - INFO -                    Current Device: 0
+2022-10-11 13:14:09,050 - opt_66b_vanilla_dataset.py - line:59 - INFO -                    Current Device: 0
+2022-10-11 13:15:24,043 - utils.py - line:16 - INFO -                    Device 0, GPU memory occupied: 43927 MB.
+2022-10-11 13:15:24,049 - utils.py - line:16 - INFO -                    Device 1, GPU memory occupied: 44065 MB.
+2022-10-11 13:15:24,054 - utils.py - line:16 - INFO -                    Device 2, GPU memory occupied: 42121 MB.
+2022-10-11 13:15:24,054 - opt_66b_vanilla_dataset.py - line:97 - INFO -                    Loading model facebook/opt-66b_vanilla_dataset, consumes: 1 min 13 sec
+2022-10-11 13:16:10,559 - opt_66b_vanilla_dataset.py - line:59 - INFO -                    Current Device: 0
+2022-10-11 13:17:07,865 - utils.py - line:16 - INFO -                    Device 0, GPU memory occupied: 43927 MB.
+2022-10-11 13:17:07,871 - utils.py - line:16 - INFO -                    Device 1, GPU memory occupied: 44065 MB.
+2022-10-11 13:17:07,876 - utils.py - line:16 - INFO -                    Device 2, GPU memory occupied: 42121 MB.
+2022-10-11 13:17:07,876 - opt_66b_vanilla_dataset.py - line:97 - INFO -                    Loading model facebook/opt-66b_vanilla_dataset, consumes: 0 min 56 sec
+2022-10-11 13:18:00,482 - opt_66b_vanilla_dataset.py - line:59 - INFO -                    Current Device: 0
+2022-10-11 13:18:53,381 - opt_66b_vanilla_dataset.py - line:87 - ERROR -                    CUDA out of memory. Tried to allocate 884.00 MiB (GPU 1; 47.54 GiB total capacity; 46.47 GiB already allocated; 264.44 MiB free; 46.47 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/home/houyi/codes/Project1_LLM_Inference/opt_66b_vanilla_dataset.py", line 85, in <module>
+    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map="balanced_low_0")
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 463, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2241, in from_pretrained
+    model, missing_keys, unexpected_keys, mismatched_keys, error_msgs = cls._load_pretrained_model(
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2465, in _load_pretrained_model
+    new_error_msgs, offload_index, state_dict_index = _load_state_dict_into_meta_model(
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/transformers/modeling_utils.py", line 588, in _load_state_dict_into_meta_model
+    set_module_tensor_to_device(model, param_name, param_device, value=param)
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/accelerate/utils/modeling.py", line 124, in set_module_tensor_to_device
+    new_value = value.to(device)
+RuntimeError: CUDA out of memory. Tried to allocate 884.00 MiB (GPU 1; 47.54 GiB total capacity; 46.47 GiB already allocated; 264.44 MiB free; 46.47 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+2022-10-11 13:18:54,450 - utils.py - line:16 - INFO -                    Device 0, GPU memory occupied: 1293 MB.
+2022-10-11 13:18:54,456 - utils.py - line:16 - INFO -                    Device 1, GPU memory occupied: 48875 MB.
+2022-10-11 13:18:54,461 - utils.py - line:16 - INFO -                    Device 2, GPU memory occupied: 47953 MB.
+2022-10-11 13:18:54,461 - opt_66b_vanilla_dataset.py - line:97 - INFO -                    Loading model facebook/opt-66b_vanilla_dataset, consumes: 0 min 52 sec
+2022-10-11 13:28:53,982 - opt_66b_vanilla_dataset.py - line:59 - INFO -                    Current Device: 0
+2022-10-11 13:29:46,862 - opt_66b_vanilla_dataset.py - line:87 - ERROR -                    CUDA out of memory. Tried to allocate 884.00 MiB (GPU 1; 47.54 GiB total capacity; 46.47 GiB already allocated; 264.44 MiB free; 46.47 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/home/houyi/codes/Project1_LLM_Inference/opt_66b_vanilla_dataset.py", line 85, in <module>
+    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto")
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 463, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2241, in from_pretrained
+    model, missing_keys, unexpected_keys, mismatched_keys, error_msgs = cls._load_pretrained_model(
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2465, in _load_pretrained_model
+    new_error_msgs, offload_index, state_dict_index = _load_state_dict_into_meta_model(
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/transformers/modeling_utils.py", line 588, in _load_state_dict_into_meta_model
+    set_module_tensor_to_device(model, param_name, param_device, value=param)
+  File "/home/houyi/anaconda3/envs/HouEnv1/lib/python3.9/site-packages/accelerate/utils/modeling.py", line 124, in set_module_tensor_to_device
+    new_value = value.to(device)
+RuntimeError: CUDA out of memory. Tried to allocate 884.00 MiB (GPU 1; 47.54 GiB total capacity; 46.47 GiB already allocated; 264.44 MiB free; 46.47 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+2022-10-11 13:29:47,784 - utils.py - line:16 - INFO -                    Device 0, GPU memory occupied: 1293 MB.
+2022-10-11 13:29:47,790 - utils.py - line:16 - INFO -                    Device 1, GPU memory occupied: 48875 MB.
+2022-10-11 13:29:47,795 - utils.py - line:16 - INFO -                    Device 2, GPU memory occupied: 47953 MB.
+2022-10-11 13:29:47,795 - opt_66b_vanilla_dataset.py - line:97 - INFO -                    Loading model facebook/opt-66b_vanilla_dataset, consumes: 0 min 52 sec
+2022-10-11 13:29:57,981 - opt_66b_vanilla_dataset.py - line:59 - INFO -                    Current Device: 0
+2022-10-11 13:30:54,101 - utils.py - line:16 - INFO -                    Device 0, GPU memory occupied: 43927 MB.
+2022-10-11 13:30:54,106 - utils.py - line:16 - INFO -                    Device 1, GPU memory occupied: 44065 MB.
+2022-10-11 13:30:54,112 - utils.py - line:16 - INFO -                    Device 2, GPU memory occupied: 42121 MB.
+2022-10-11 13:30:54,112 - opt_66b_vanilla_dataset.py - line:97 - INFO -                    Loading model facebook/opt-66b_vanilla_dataset, consumes: 0 min 55 sec

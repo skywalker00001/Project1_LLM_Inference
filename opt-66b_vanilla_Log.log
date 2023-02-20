@@ -1,0 +1,16 @@
+2022-10-11 10:56:33,221 - opt66b_vanilla.py - line:54 - INFO -                    Current Device: 0
+2022-10-11 10:58:34,435 - opt66b_vanilla.py - line:68 - INFO -                    Device 0, GPU memory occupied: 43927 MB.
+2022-10-11 10:58:34,441 - opt66b_vanilla.py - line:68 - INFO -                    Device 1, GPU memory occupied: 44065 MB.
+2022-10-11 10:58:34,446 - opt66b_vanilla.py - line:68 - INFO -                    Device 3, GPU memory occupied: 42121 MB.
+2022-10-11 10:58:34,447 - opt66b_vanilla.py - line:91 - INFO -                    Loading model facebook/opt-66b_vanilla, consumes: 2 min 0 sec
+2022-10-11 10:59:34,220 - opt66b_vanilla.py - line:227 - INFO -                    Promp pt_version 1, inference cosumes: 0 min 59 sec
+2022-10-11 11:04:57,428 - opt66b_vanilla.py - line:54 - INFO -                    Current Device: 0
+2022-10-11 11:06:30,989 - opt66b_vanilla.py - line:68 - INFO -                    Device 0, GPU memory occupied: 43929 MB.
+2022-10-11 11:06:30,995 - opt66b_vanilla.py - line:68 - INFO -                    Device 1, GPU memory occupied: 44067 MB.
+2022-10-11 11:06:31,000 - opt66b_vanilla.py - line:68 - INFO -                    Device 3, GPU memory occupied: 42123 MB.
+2022-10-11 11:06:31,000 - opt66b_vanilla.py - line:91 - INFO -                    Loading model facebook/opt-66b_vanilla, consumes: 1 min 32 sec
+2022-10-11 11:06:31,010 - opt66b_vanilla.py - line:156 - INFO -                    Input shape:
+2022-10-11 11:06:31,010 - opt66b_vanilla.py - line:157 - INFO -                    torch.Size([1, 1081])
+2022-10-11 11:07:30,752 - opt66b_vanilla.py - line:173 - INFO -                    Output shape:
+2022-10-11 11:07:30,753 - opt66b_vanilla.py - line:174 - INFO -                    torch.Size([1239])
+2022-10-11 11:07:30,791 - opt66b_vanilla.py - line:235 - INFO -                    Promp pt_version 1, inference cosumes: 0 min 59 sec
